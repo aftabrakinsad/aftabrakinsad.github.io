@@ -1,3 +1,4 @@
+<img alt="netlify Passing" src="https://img.shields.io/static/v1?label=Test&message=Passing&color=limegreen&logo=netlify" />
 <p align="center">
 <a href="https://github.com/aftabrakinsad/aftabrakinsad.github.io/actions">
 <img alt="Tests Passing" src="https://img.shields.io/static/v1?label=Test&message=Passing&color=limegreen&logo=github" />
