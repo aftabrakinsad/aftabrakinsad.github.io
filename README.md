@@ -1,4 +1,4 @@
-<a href="aftabrakinsad.netlify.app"><img alt="netlify Passing" src="https://img.shields.io/static/v1?label=Test&message=Passing&color=limegreen&logo=netlify"/></a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e22bacec-b9f0-41bb-93ed-da13051bc1ad/deploy-status)](https://app.netlify.com/sites/aftabrakinsad/deploys)
 <p align="center">
 <a href="https://github.com/aftabrakinsad/aftabrakinsad.github.io/actions">
 <img alt="Tests Passing" src="https://img.shields.io/static/v1?label=Test&message=Passing&color=limegreen&logo=github" />
