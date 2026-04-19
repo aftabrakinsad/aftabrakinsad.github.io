@@ -14,8 +14,8 @@ export const research = [
     pagecount: "Page Count: 17 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.5815/ijieeb.2024.02.03",
-    thumbnail: "/public/research_thumbnail/IJIEEB-V16-N2-3.jpg",
-    downloadUrl: "/public/research_paper/IJIEEB-V16-N2-3.pdf",
+    thumbnail: "research_thumbnail/IJIEEB-V16-N2-3.jpg",
+    downloadUrl: "research_paper/IJIEEB-V16-N2-3.pdf",
   },
   {
     title: "Applications of IoT-Enabled Smart Model: A Model For Enhancing Food Service Operation in Developing Countries",
@@ -28,8 +28,8 @@ export const research = [
     pagecount: "Page Count: 19 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.37385/jaets.v5i2.4937",
-    thumbnail: "/public/research_thumbnail/4937-Article Text-28009-1-10-20240604.jpg",
-    downloadUrl: "/public/research_paper/4937-Article Text-28009-1-10-20240604.pdf",
+    thumbnail: "research_thumbnail/4937-Article Text-28009-1-10-20240604.jpg",
+    downloadUrl: "research_paper/4937-Article Text-28009-1-10-20240604.pdf",
   },
   {
     title: "Leaf disease detection using convolutional neural networks: a proposed model using tomato plant leaves",
@@ -42,7 +42,7 @@ export const research = [
     pagecount: "Page Count: 19 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.37385/jaets.v5i2.4937",
-    thumbnail: "/public/research_thumbnail/s00521-024-10283-2.jpg",
+    thumbnail: "research_thumbnail/s00521-024-10283-2.jpg",
     downloadUrl: null,
   },
   {
@@ -56,7 +56,7 @@ export const research = [
     pagecount: "Page Count: 09 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.1109/COMPAS60761.2024.10797096",
-    thumbnail: "/public/research_thumbnail/Deep_Facial_Recognition_Unraveling_Kinship_Patterns_Among_Strangers_Using_CNN-1_page-0001.jpg",
+    thumbnail: "research_thumbnail/Deep_Facial_Recognition_Unraveling_Kinship_Patterns_Among_Strangers_Using_CNN-1_page-0001.jpg",
     downloadUrl: null,
   },
   {
@@ -70,7 +70,7 @@ export const research = [
     pagecount: "Page Count: 06 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.1109/ASIANComNet63184.2024.10811091",
-    thumbnail: "/public/research_thumbnail/Multicriteria_Decision_Analysis_for_Optimal_Internet_Service_Provider_Selection_Using_Calibrated_Random_Forest.jpg",
+    thumbnail: "research_thumbnail/Multicriteria_Decision_Analysis_for_Optimal_Internet_Service_Provider_Selection_Using_Calibrated_Random_Forest.jpg",
     downloadUrl: null,
   },
   {
@@ -84,8 +84,8 @@ export const research = [
     pagecount: "Page Count: 08 Pages",
     color: "#60A5FA",
     link: "http://dx.doi.org/10.14569/IJACSA.2025.0160396",
-    thumbnail: "/public/research_thumbnail/Paper_96-Capacity_Analysis_of_MIMO_Channels_Under_High_SNR.jpg",
-    downloadUrl: "/public/research_paper/Paper_96-Capacity_Analysis_of_MIMO_Channels_Under_High_SNR.pdf",
+    thumbnail: "research_thumbnail/Paper_96-Capacity_Analysis_of_MIMO_Channels_Under_High_SNR.jpg",
+    downloadUrl: "research_paper/Paper_96-Capacity_Analysis_of_MIMO_Channels_Under_High_SNR.pdf",
   },
   {
     title: "SkinScanNet: A CNN-Based Model with Explainable AI for Reliable and Transparent Skin Cancer Detection",
@@ -98,7 +98,7 @@ export const research = [
     pagecount: "Page Count: 06 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.1109/ICCIT64611.2024.11021833",
-    thumbnail: "/public/research_thumbnail/SkinScanNet_A_CNN-Based_Model_with_Explainable_AI_for_Reliable_and_Transparent_Skin_Cancer_Detection.jpg",
+    thumbnail: "research_thumbnail/SkinScanNet_A_CNN-Based_Model_with_Explainable_AI_for_Reliable_and_Transparent_Skin_Cancer_Detection.jpg",
     downloadUrl: null,
   },
   {
@@ -112,7 +112,7 @@ export const research = [
     pagecount: "Page Count: 13 Pages",
     color: "#60A5FA",
     link: "http://dx.doi.org/10.14569/IJACSA.2025.0160396",
-    thumbnail: "/public/research_thumbnail/978-981-96-4520-6.jpg",
+    thumbnail: "research_thumbnail/978-981-96-4520-6.jpg",
     downloadUrl: null,
   },
   {
@@ -126,8 +126,8 @@ export const research = [
     pagecount: "Page Count: 19 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.5815/ijisa.2025.05.04",
-    thumbnail: "/public/research_thumbnail/IJISA-V17-N5-4.jpg",
-    downloadUrl: "/public/research_paper/IJISA-V17-N5-4.pdf",
+    thumbnail: "research_thumbnail/IJISA-V17-N5-4.jpg",
+    downloadUrl: "research_paper/IJISA-V17-N5-4.pdf",
   },
   {
     title: "Enhancing Medical Image Analysis with Advanced Optimization Techniques: A Comparative Study of Machine Learning Model Optimizers",
@@ -140,7 +140,7 @@ export const research = [
     pagecount: "Page Count: 18 Pages",
     color: "#60A5FA",
     link: "https://doi.org/10.1007/978-3-032-08596-2_11",
-    thumbnail: "/public/research_thumbnail/978-3-032-08596-2.jpg",
+    thumbnail: "research_thumbnail/978-3-032-08596-2.jpg",
     downloadUrl: null,
   },
 ];
