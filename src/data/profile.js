@@ -11,7 +11,7 @@ export const profile = {
 
   /** Set to a URL (e.g. "/avatar.jpg" or "https://...") to show your photo.
    *  Leave null to show animated initials. */
-  photo: "/public/profile/rakinsaftab.JPG",
+  photo: "profile/rakinsaftab.JPG",
 
   quote: "Design is not just what it looks like — design is how it works.",
   quoteAuthor: "Steve Jobs",
