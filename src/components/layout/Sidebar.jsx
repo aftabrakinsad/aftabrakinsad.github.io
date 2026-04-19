@@ -3,7 +3,7 @@ import {
   GithubIcon,
   LinkedInIcon,
   TwitterIcon,
-  DribbbleIcon,
+  FacebookIcon,
 } from "../icons/Icons";
 
 /**
@@ -65,13 +65,13 @@ export function Sidebar() {
           <TwitterIcon />
         </a>
         <a
-          href={profile.social.dribbble}
+          href={profile.social.facebook}
           className="social-btn"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Dribbble"
+          aria-label="Facebook"
         >
-          <DribbbleIcon />
+          <FacebookIcon />
         </a>
       </div>
 
