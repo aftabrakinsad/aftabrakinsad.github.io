@@ -9,8 +9,9 @@ import { SunIcon, MoonIcon, MenuIcon } from "../icons/Icons";
 export function Header({ activeId, onNavigate, theme, onToggleTheme, onOpenMobileMenu }) {
   return (
     <header className="header panel" role="banner">
-      <div className="header-logo header-logo--morse">
-        {profile.logo}
+      <div className="header-logo header-logo--morse" title="R.S.A in Morse Code">
+        <span className="morse-text">{profile.logo}</span>
+        <span className="morse-decoded">RSA</span>
       </div>
 
       <nav className="header-nav" role="navigation" aria-label="Main navigation">
