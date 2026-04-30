@@ -4,7 +4,7 @@
  */
 export const profile = {
   name: "Rakin S. Aftab",
-  logo: "RSA",
+  logo: ".-. ... .-",
   role: "Software Developer",
   email: "rakinsadaftab@gmail.com",
   location: "Calgary, AB, Canada",

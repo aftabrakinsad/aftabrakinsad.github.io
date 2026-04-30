@@ -9,10 +9,8 @@ import { SunIcon, MoonIcon, MenuIcon } from "../icons/Icons";
 export function Header({ activeId, onNavigate, theme, onToggleTheme, onOpenMobileMenu }) {
   return (
     <header className="header panel" role="banner">
-      <div className="header-logo">
-        <span className="accent">{profile.logo[0]}.</span>
-        {profile.logo[1] || ""}
-        <span className="accent">.{profile.logo[2]}</span>
+      <div className="header-logo header-logo--morse">
+        {profile.logo}
       </div>
 
       <nav className="header-nav" role="navigation" aria-label="Main navigation">

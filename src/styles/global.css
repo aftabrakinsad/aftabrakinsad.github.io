@@ -203,6 +203,14 @@ img { max-width: 100%; display: block; }
 }
 .header-logo .accent { color: var(--color-accent); }
 
+.header-logo--morse {
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
