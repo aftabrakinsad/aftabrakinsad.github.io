@@ -42,7 +42,7 @@ export function ContactSection() {
 
     setStatus("sending");
     // TODO: replace with actual API call
-    // await fetch("/api/contact", { method: "POST", body: JSON.stringify(form) });
+    await fetch("/api/contact", { method: "POST", body: JSON.stringify(form) });
     setTimeout(() => {
       setStatus("sent");
       setForm({ name: "", email: "", message: "" });

@@ -699,6 +699,7 @@ img {
 
 .section:last-child {
   border-bottom: none;
+  min-height: calc(100vh - var(--header-h) - var(--footer-h) - 40px);
   padding-bottom: 48px;
 }
 
