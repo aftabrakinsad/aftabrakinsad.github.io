@@ -89,6 +89,9 @@ export function ResearchCard({ paper }) {
         </div>
 
         <div className="card-body">
+          <span className="card-link card-link--venue">
+              <DocumentIcon /> {venue}
+            </span>
           <div className="card-meta">
             <span>{date}</span>
             <span aria-hidden="true">·</span>
@@ -111,9 +114,6 @@ export function ResearchCard({ paper }) {
                 <DownloadIcon /> Download
               </a>
             )}
-            <span className="card-link card-link--venue">
-              <DocumentIcon /> {venue}
-            </span>
           </div>
         </div>
       </article>

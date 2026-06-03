@@ -9,7 +9,7 @@ export const research = [
     description:
       "The safety of online transactions is paramount in the modern world, mainly since technology develops at a dizzying rate. This study aims to shed light on the numerous threats that users of online transaction systems face. The study used a mixed-methods research strategy to investigate the experiences and perspectives of 400 individuals from various backgrounds.",
     tags: ["Undergraduate Thesis Paper", "Journal Article", "Quartile: Q3"],
-    venue: "Journal: IJIEEB",
+    venue: "I. Journal of Information Engineering and Electronic Business",
     date: "Published: April 2024",
     pagecount: "Page Count: 17 Pages",
     color: "#60A5FA",
@@ -23,7 +23,7 @@ export const research = [
     description:
       "We present a comprehensive approach to developing and implementing an IoT-based automated order-handling system tailored to restaurants' specific needs and challenges in developing countries, highlighting the importance of technology in enhancing operational efficiency and customer satisfaction.",
     tags: ["Journal Article", "Quartile: Q3"],
-    venue: "Journal: JAETS",
+    venue: "Journal of Applied Engineering and Technological Science",
     date: "Published: June 2024",
     pagecount: "Page Count: 19 Pages",
     color: "#60A5FA",
@@ -37,11 +37,11 @@ export const research = [
     description:
       "The study underscores the importance of algorithmic adaptability to attain precision in leaf disease identification and emphasizes the potential for customized strategies in achieving accuracy. The classification is done by extracting color, shape, and texture features from a healthy tomato plant leaf image.",
     tags: ["Journal Article", "Quartile: Q1"],
-    venue: "Journal: Neural Computing and Applications",
+    venue: "Neural Computing and Applications",
     date: "Published: August 2024",
     pagecount: "Page Count: 19 Pages",
     color: "#60A5FA",
-    link: "https://doi.org/10.37385/jaets.v5i2.4937",
+    link: "https://doi.org/10.1007/s00521-024-10283-2",
     thumbnail: "research_thumbnail/s00521-024-10283-2.jpg",
     downloadUrl: null,
   },
@@ -51,7 +51,7 @@ export const research = [
     description:
       "This study explores the application of deep facial recognition technology to identify kinship patterns among strangers using CNNs. Utilizing the VGGFace2 dataset, a deep CNN model was developed and evaluated to determine its effectiveness in inferring familial relationships based on facial features.",
     tags: ["Conference Paper", "IEEE", "Pattern Recognition"],
-    venue: "Conference: 2024 IEEE COMPAS",
+    venue: "2024 IEEE I. Conference on Computing, Applications and Systems",
     date: "Published: December 2024",
     pagecount: "Page Count: 09 Pages",
     color: "#60A5FA",
@@ -65,7 +65,7 @@ export const research = [
     description:
       "This paper proposes a novel ISP selection methodology using user data & a CRF model. Unlike traditional methods that focus on advertisement, this approach focus on user-defined criteria such as cost, device connectivity, and technical support experience.",
     tags: ["Conference Paper", "IEEE", "Decision Analysis"],
-    venue: "Conference: 2024 ASIANComNet",
+    venue: "2024 Asian Conference on Communication and Networks",
     date: "Published: December 2024",
     pagecount: "Page Count: 06 Pages",
     color: "#60A5FA",
@@ -79,7 +79,7 @@ export const research = [
     description:
       "This study explores the capacity of multiple-input multiple-output (MIMO) wireless channels under high signal-to-noise ratio (SNR) conditions, incorporating Nakagami-q fading distribution alongside Rayleigh and Rician fading models.",
     tags: ["Journal Article", "Wireless Channel Modeling", "Quartile: Q3"],
-    venue: "Journal: IJACSA",
+    venue: "I. Journal of Advanced Computer Science and Applications",
     date: "Published: April 2025",
     pagecount: "Page Count: 08 Pages",
     color: "#60A5FA",
@@ -93,7 +93,7 @@ export const research = [
     description:
       "This study introduces SkinScanNet, a CNN-based deep learning model that classifies skin lesions into benign and malignant categories. The model demonstrates robust performance, achieving a test accuracy of around 94%, with precision, recall, and F1-scores of 95.45%, 89.94%, and 92.56%, respectively.",
     tags: ["Conference Paper", "IEEE", "SkinScanNet"],
-    venue: "Conference: 2024 27th ICCIT",
+    venue: "2024 27th I. Conference on Computer and Information Technology",
     date: "Published: June 2025",
     pagecount: "Page Count: 06 Pages",
     color: "#60A5FA",
@@ -107,11 +107,11 @@ export const research = [
     description:
       "This study introduces a novel approach to potato leaf disease detection using a DenseNet121-based CNN model that achieves remarkable accuracy and efficiency. By utilizing a carefully curated dataset comprising six categories and employing advanced preprocessing and augmentation techniques.",
     tags: ["Book Chapter", "CNN", "Quartile: Q4"],
-    venue: "Publisher: Springer",
+    venue: "Springer Nature",
     date: "Published: August 2025",
     pagecount: "Page Count: 13 Pages",
     color: "#60A5FA",
-    link: "http://dx.doi.org/10.14569/IJACSA.2025.0160396",
+    link: "https://doi.org/10.1007/978-981-96-4520-6_8",
     thumbnail: "research_thumbnail/978-981-96-4520-6.jpg",
     downloadUrl: null,
   },
@@ -121,7 +121,7 @@ export const research = [
     description:
       "This research utilizes a robust stacking ensemble machine learning (ML) approach, integrating diverse datasets to enhance the accuracy and predictive performance of heart attack risk assessments.",
     tags: ["Journal Article", "Stacking Ensemble Model", "Scopus Indexed"],
-    venue: "Journal: IJISA",
+    venue: "International Journal of Intelligent Systems and Applications",
     date: "Published: October 2025",
     pagecount: "Page Count: 19 Pages",
     color: "#60A5FA",
@@ -135,7 +135,7 @@ export const research = [
     description:
       "This chapter presents a detailed empirical study comparing the effectiveness of modern optimization algorithms, such as Adam, SGD with momentum, RMSprop, and adaptive optimizers, for improving lesion, tumor, or anomaly detection in medical images.",
     tags: ["Book Chapter", "Optimization Techniques", "Quartile: Q4"],
-    venue: "Publisher: Springer",
+    venue: "Springer Nature",
     date: "Published: January 2026",
     pagecount: "Page Count: 18 Pages",
     color: "#60A5FA",
