@@ -4,25 +4,32 @@ import { GithubIcon, ExternalIcon } from "../icons/Icons";
  * ProjectCard — visual card for a featured project.
  */
 export function ProjectCard({ project }) {
-  const { title, subtitle, description, tech, color, year, demo, source } = project;
+  const { title, subtitle, description, tech, color, year, demo, source, sources, image } = project;
+  const sourceLinks = sources ?? (source ? [{ label: "Source", href: source }] : []);
 
   return (
     <article className="project-card">
-      <div className="card-visual">
-        <div
-          className="card-visual-bg"
-          style={{
-            background: `radial-gradient(circle at 50% 50%, ${color}, transparent 70%)`,
-          }}
-        />
-        <div
-          className="card-visual-icon"
-          style={{ borderColor: color, color: color }}
-          aria-hidden="true"
-        >
-          {title[0]}
+      {image ? (
+        <div className="card-visual card-visual--image">
+          <img className="card-visual-img" src={image} alt={`${title} screenshot`} loading="lazy" />
         </div>
-      </div>
+      ) : (
+        <div className="card-visual">
+          <div
+            className="card-visual-bg"
+            style={{
+              background: `radial-gradient(circle at 50% 50%, ${color}, transparent 70%)`,
+            }}
+          />
+          <div
+            className="card-visual-icon"
+            style={{ borderColor: color, color: color }}
+            aria-hidden="true"
+          >
+            {title[0]}
+          </div>
+        </div>
+      )}
       <div className="card-body">
         <div className="card-meta">
           <span>{year}</span>
@@ -36,12 +43,16 @@ export function ProjectCard({ project }) {
           ))}
         </div>
         <div className="card-links">
-          <a href={demo} className="card-link" target="_blank" rel="noopener noreferrer">
-            Live Demo <ExternalIcon />
-          </a>
-          <a href={source} className="card-link" target="_blank" rel="noopener noreferrer">
-            <GithubIcon /> Source
-          </a>
+          {demo && (
+            <a href={demo} className="card-link" target="_blank" rel="noopener noreferrer">
+              Live Demo <ExternalIcon />
+            </a>
+          )}
+          {sourceLinks.map(({ label, href }) => (
+            <a key={href} href={href} className="card-link" target="_blank" rel="noopener noreferrer">
+              <GithubIcon /> {label}
+            </a>
+          ))}
         </div>
       </div>
     </article>
