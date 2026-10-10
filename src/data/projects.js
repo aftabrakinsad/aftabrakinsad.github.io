@@ -10,7 +10,7 @@ export const projects = [
     tech: ["Next.js", "NestJS", "PostgreSQL", "TypeORM", "Tailwind CSS"],
     color: "#2DD4BF",
     year: "2026",
-    image: "/public/project_bg/home.webp",
+    image: "project_bg/ASC_UG.png",
     demo: "https://abroad-study-consulting-next.vercel.app",
     sources: [
       { label: "Frontend", href: "https://github.com/aftabrakinsad/Abroad_Study_Consulting_Next" },
